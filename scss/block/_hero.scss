@@ -1,0 +1,32 @@
+.hero{
+    background: url("/asset/map\ top.png")no-repeat center/cover;
+    height: 250px;
+}
+.hero__card{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    gap: 5px;
+}
+.hero__item{
+    color: orange;
+}
+
+.hero__wrapper{
+    padding-top: 40px;
+    display: flex;
+}
+
+.hero__title{
+    font-size: 48px;
+    color: white;
+   
+}
+
+.img__box{
+    background-color: #282727;
+    .img{
+        width: 100%;
+    }
+}

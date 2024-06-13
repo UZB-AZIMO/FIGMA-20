@@ -1,0 +1,92 @@
+.room{
+    margin: 50px 0;
+   
+    &__card{
+        width: 45%;
+        flex-direction: column;
+
+        .card__title{
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: 500;
+            transition: .8s;
+            &:hover{
+                color: #F57520;
+            }
+        }
+        }
+        .card__text{
+            font-size: 17px;
+            font-weight: 300;
+transition: .8s;
+            &:hover{
+                color: #F57520;
+            }
+        }
+    }
+
+
+.room__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.room__body{
+    margin-top: 10px;
+    display: flex;
+justify-content: space-between;
+}
+
+.body__item{
+    font-size: 16px;
+    font-weight: 400;
+    color:  #777777;
+    transition: .8s;
+            &:hover{
+                color: #F57520;
+            }
+        }
+
+
+.body__text{
+    font-size: 16px;
+    font-weight: 500;
+
+    transition: .8s;
+    &:hover{
+        color: #F57520;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media ( max-width:1095px){
+
+.room__wrapper{
+    flex-direction: column;
+    gap: 40px;
+}
+
+.room__card{
+    width: 100%;
+}
+}
+
+
+
+
+
+
+
+@media ( max-width:560px){
+   
+.room__body{
+    flex-direction: column;
+    margin-top: 5px;
+}
+}

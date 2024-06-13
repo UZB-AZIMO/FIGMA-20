@@ -1,0 +1,113 @@
+.name{
+    background-color:#F57520;
+}
+.name__wrapper{
+  display: flex;
+}
+.name__card{
+width: 55%;
+color: white;
+padding: 40px 0;
+.card__title{
+    margin-top: 20px;
+    width: 85%;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.card__bag{
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+}
+.name__inp{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+        color: #F57520;
+}
+.name__input{
+    max-width: 500px;
+    padding: 10px;
+    height: 150px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+      color: #F57520;  
+     
+}
+.name__img{
+    width: 50%; 
+}
+
+.name__btn{
+    width: 500px;
+    display: block;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 8px 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #F57520;
+    transition: 1s;
+    &:hover{
+      background-color: black;
+      color: #F57520;
+    }
+}
+
+
+
+
+
+
+
+
+@media ( max-width:905px){
+  
+.name__img{
+    display: none;
+}
+
+.name__input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+}
+
+
+
+
+
+@media ( max-width:705px){
+ 
+.card__bag{
+    flex-direction: column;
+}
+.name__input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.name__card{
+    width: 100%;
+}
+.name__btn{
+    width: 90%;
+ margin: auto;
+}
+
+}
+
+
+
+
+
+
+

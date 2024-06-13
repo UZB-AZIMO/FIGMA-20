@@ -1,0 +1,126 @@
+  .header{
+    background-color: black;
+  }
+.navbar{
+    padding:20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__collection{
+        margin-top: 10px;
+        display: flex;
+        gap: 30px;
+        
+    }
+    &__item{        
+        list-style: none;
+        font-size: 18px;
+        color: white;
+        transition: 1s;
+        &:hover{
+            color:orange;
+            cursor: pointer;
+        }
+    }
+    .icon__bag{
+        display: flex;
+        gap: 20px;
+    }
+    .fa-solid {
+        color: white;
+        transition: 1s;
+        font-size: 20px;
+        &:hover{
+            color:orange;
+        }
+    }
+    &__btn{
+        padding: 10px 20px;
+        border: 3px solid white;
+        font-size: 20px;
+        font-weight: bolder;
+        background-color: white;
+        transition: .5s;
+        border-radius: 20px;
+        &:hover{
+color: red;
+border: 3px solid red;
+
+        }
+    }
+}
+
+.navbar__logo{
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+@media ( max-width:1050px){
+    .header{   
+}
+.one{
+    display: none;
+}
+}
+
+
+
+
+
+
+@media ( max-width:880px){
+    .header{   
+}
+.two{
+    display: none;
+}
+.navbar__logo{
+    width: 50px;
+}
+.fa-solid {
+    font-size: 18px;
+}
+}
+
+
+
+
+
+@media ( max-width:600px){
+    .header{   
+        .navbar{
+            padding: 10px 5px;
+        }
+}
+
+.tree{
+    display: none;
+}
+.navbar__logo{
+    width: 48px;
+}
+.fa-solid {
+    font-size: 5px;
+}
+
+}
+
+
+
+
+
+
+@media ( max-width:305px){
+    .header{   
+}
+.navbar__logo{
+    width: 41px;
+}
+}
