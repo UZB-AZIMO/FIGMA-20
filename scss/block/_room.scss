@@ -10,14 +10,12 @@
             font-size: 20px;
             font-weight: 500;
             transition: .8s;
-            &:hover{
-                color: #F57520;
-            }
-        }
+                   }
         }
         .card__text{
             font-size: 17px;
             font-weight: 300;
+            cursor: pointer;
 transition: .8s;
             &:hover{
                 color: #F57520;
@@ -41,6 +39,7 @@ justify-content: space-between;
     font-weight: 400;
     color:  #777777;
     transition: .8s;
+    cursor: pointer;
             &:hover{
                 color: #F57520;
             }
@@ -50,7 +49,7 @@ justify-content: space-between;
 .body__text{
     font-size: 16px;
     font-weight: 500;
-
+    cursor: pointer;
     transition: .8s;
     &:hover{
         color: #F57520;

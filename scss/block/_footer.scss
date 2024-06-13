@@ -1,0 +1,68 @@
+.footer{
+    padding: 40px 0;
+    background-color: black;
+    color: white;
+}
+.footer__img{
+    margin-bottom: 20px;
+}
+
+.footer__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap:120px;
+}
+.fa-mobile {
+    font-size: 25px;    
+    margin: 0 10px 10px 0;
+}
+.fa-telegram{
+    font-size: 25px;
+    margin: 0 10px 10px 0;
+}
+.fa-envelope{
+     font-size: 25px;
+    margin: 0 10px 10px 0;
+}
+.card__text{
+    transition: .8;
+    cursor: pointer;
+    &:hover{
+        color: #F57520;
+    }
+}
+
+
+
+.card__title{
+    font-size: 25px;
+    font-weight: 500;
+    transition: 1s;
+    cursor: pointer;
+    &:hover{
+        color: #F57520;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media ( max-width:405px){
+
+    .footer__wrapper{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer__card{
+        width: 100%;
+        margin-top: 30px;
+    }
+}

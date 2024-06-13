@@ -76,8 +76,8 @@ input:checked + .accordion-label {
     background: rgb(3, 113, 192);
 }
 input:checked + .accordion-label::after {
-    -webkit-transform: rotate(100deg);
-    transform: rotate(30deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(120deg);
 }
 input:checked ~ .accordion-content {
     max-height: 100vh;
